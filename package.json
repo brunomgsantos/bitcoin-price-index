@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lighthouse:ci": "lhci autorun --upload.serverBaseUrl='http://localhost:9001' --upload.token='2ea97c23-3e53-433a-8acf-099f1174a7b5'"
   }
 }
