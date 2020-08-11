@@ -1,7 +1,6 @@
 {
     "ci": {
         "collect": {
-            "url": ["http://localhost:3000/"],
             "headful": false,
             "numberOfRuns": 1,
             "settings": {
@@ -9,7 +8,7 @@
             }
         },
         "upload": {
-            "token": "354bc677-c700-4a5c-87bb-3a46fbab7516",
+            "token": "8beaf5c2-ec76-4178-8f1f-e0236fdb3b0e",
             "serverBaseUrl": "http://localhost:9001"
         }
     }
