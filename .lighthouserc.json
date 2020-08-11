@@ -4,7 +4,8 @@
             "headful": false,
             "numberOfRuns": 1,
             "settings": {
-                "logLevel": "info"
+                "logLevel": "info",
+                "chromeFlags: ["--no-sandbox"]
             }
         },
         "upload": {
