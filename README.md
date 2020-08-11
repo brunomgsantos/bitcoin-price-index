@@ -1,4 +1,4 @@
-# DEMO PURPOSES
+# DEMO PURPOSES V2
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
