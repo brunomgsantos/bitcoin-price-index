@@ -1,0 +1,16 @@
+{
+    "ci": {
+        "collect": {
+            "url": ["http://localhost:3000/"],
+            "headful": false,
+            "numberOfRuns": 1,
+            "settings": {
+                "logLevel": "info"
+            }
+        },
+        "upload": {
+            "token": "354bc677-c700-4a5c-87bb-3a46fbab7516",
+            "serverBaseUrl": "http://localhost:9001"
+        }
+    }
+}
