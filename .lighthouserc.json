@@ -5,7 +5,7 @@
             "numberOfRuns": 1,
             "settings": {
                 "logLevel": "info",
-                "chromeFlags": ["--no-sandbox", "--headless", "--disable-setuid-sandbox"]
+                "chromeFlags": ["--no-sandbox"]
             }
         },
         "upload": {
