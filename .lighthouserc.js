@@ -1,10 +1,15 @@
-{
+const puppeteer = require("puppeteer");
+
+module.exports = {
     "ci": {
         "collect": {
+            "chromePath": puppeteer.executablePath(),
             "headful": false,
             "numberOfRuns": 1,
+            "url": ["https://www.google.com"],
             "settings": {
-                "logLevel": "info"
+                "logLevel": "info",
+                "chromeFlags": "--no-sandbox --disable-setuid-sandbox --headless"
             }
         },
         "upload": {
